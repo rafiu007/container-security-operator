@@ -127,3 +127,4 @@ Check if a pod has any vulnerability, and list the CVEs, if any:
 ```sh
 $ kubectl get imagemanifestvulns.secscan.quay.redhat.com --selector=<namespace>/<pod-name> -o jsonpath='{.items[*].spec.features[*].vulnerabilities[*].name}'
 ```
+chnaged
